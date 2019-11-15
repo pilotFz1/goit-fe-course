@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* HEADER  */
+
+.page-header {
+    padding-top: 76px;
+    margin-bottom: 100px;
+}
+.card {
+    list-style: none;
+    text-align: center;
+}
+
+.card-item {
+    display: inline-block;
+ 
+}
+
+.card-item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+   
+}
+
+.card-link:hover {
+    color: rgb(85, 240, 240);
+    }
+
+    /* gallery  */
+.gallery {
+margin-bottom: 30px;
+}
+
+.gallery-item {
+    vertical-align: top;
+    display: inline-block;
+    width: 420px; 
+        
+}
+.gallery-item:not(:nth-child(even)){
+    margin-right: 56px;
+}
+
+.gallery-item:not(:nth-last-child(-n+2)) {
+  margin-bottom: 30px;
+}
+
+
+
+
+.gallery-description {
+    color: #b4ad9e;
+    padding-top: 25px;
+    margin-bottom: 18px;
+}
+
+.gallery-description {
+color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+.gallery-title {
+color: #626262;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+margin-bottom: 25px;
+}
+
+.gallery-text{
+   color: #626262;
+font-family: "Playfair Display";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* button  */
+
+button {
+    padding: 22px 34px;
+    border: 1px solid #626262;
+    background: white;
+    cursor: pointer;
+
+}
+
+.btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
