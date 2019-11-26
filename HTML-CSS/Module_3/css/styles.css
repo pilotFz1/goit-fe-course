@@ -6,6 +6,7 @@
 .container {
     width: 900px;
     margin: 0 auto;
+    font-size: 0;
 }
 
 /* HEADER  */
@@ -55,8 +56,8 @@ margin-bottom: 30px;
         
 }
 .gallery-item:not(:nth-child(even)){
-    margin-right: 56px;
-}
+    margin-right: 60px;
+    }
 
 .gallery-item:not(:nth-last-child(-n+2)) {
   margin-bottom: 30px;
